@@ -85,7 +85,7 @@
 </script>
     {#if signedIn}
         <div
-            class="card bg-base-300 shadow-xl max-w-xl max-h-96"
+            class="card bg-base-300 shadow-xl max-w-xl h-fit"
             in:fly={{ duration: 200, x: 100 }}
             out:fly={{ duration: 100, x: -100 }}
         >
@@ -93,6 +93,8 @@
             <div class="card-body">
                 <h2 class="card-title">Your Public Address:</h2>
                 <p>{web3Props.account}</p>
+                <h2 class="card-title">JSON Web Token:</h2>
+                <p class="break-words" >{jwtToken}</p>
                 <h2 class="card-title">Username:</h2>
                 <input
                     type="text"

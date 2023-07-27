@@ -1,6 +1,5 @@
 <script lang="ts">
     import WalletConnect from "$lib/WalletConnect.svelte";
-    import LocalSign from "$lib/LocalSign.svelte";
     import MetamaskSign from "$lib/MetamaskSign.svelte";
 
     export let web3Props: Web3Props;    
@@ -11,5 +10,4 @@
     <WalletConnect bind:web3Props />
 {:else}
     <MetamaskSign bind:web3Props />
-    <!-- <LocalSign bind:web3Props /> -->
 {/if}
