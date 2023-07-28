@@ -1,3 +1,5 @@
+
+<p>Front-End Metamask authentication in svelte with ethers.js. Backend (required): https://github.com/AlexanderSpringer/web3-nest-postgres-auth</p><br />
 <p><b>Live Demo</b>: https://web3-svelte-ui.vercel.app/</p><br />
 <p>
 Since this is a simple demo some functionality is not yet included:<br />
