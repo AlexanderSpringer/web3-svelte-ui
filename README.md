@@ -1,3 +1,20 @@
+<p><b>Live Demo</b>: https://web3-svelte-ui.vercel.app/</p><br />
+<p>
+Since this is a simple demo some functionality is not yet included:<br />
+<ul>
+  <li>Cookies not implemented client-side</li>
+  <li>Email / Password authentication
+    <ul>
+      <li>Basically implemented in Nest, but not client-side</li>
+      <li>Passwords are stored in clear-text</li>
+    </ul>
+  </li>
+  <li>A logged in user can do all REST calls (no permission levels, like "admin", "user")</li>
+</ul>
+</p>
+<br /><br /><br /><br /><br /><br />
+
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
